@@ -11,6 +11,7 @@ StreamWriter writer = new StreamWriter(writePath);
 
 // I have these written into the file to separate cycles if I decide to go in and make it ping multiple times at a later point.
 // It also serves as evidence the Program ran if you don't have anything in the PingList file. Hence, why I used a do-while loop.
+// Alternatively you can replace all the "writer.WriteLine()" with "Console.WriteLine()" or duplicate it and do both the file and console.
 String? address = "Pinging sites\n";
 String timestamp = "Working...";
 
@@ -20,6 +21,8 @@ Console.WriteLine("Beginning to check site status");
 // First time ever a do-while loop has been used, if my professor is to be believed.
 do
 {
+    // I was going to add an elipsis animation to the console, -> for (int i = 0; i < 3; i++) { Console.Write('."); Thread.Sleep(100);}
+    // but I'd either have to waste time doing it between pings or start multi-threading.
     writer.WriteLine(address);
     writer.WriteLine(timestamp  + "\n");
 
