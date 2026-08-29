@@ -1,0 +1,24 @@
+Pinging sites
+
+Working...
+
+Success!
+192.168.1.1
+2026-08-28 21:37:59
+
+Failed to reach site - DestinationHostUnreachable
+192.168.1.167
+2026-08-28 21:37:59
+
+An exception occurred during a Ping request.
+Bingus2
+2026-08-28 21:38:02
+
+Success!
+bindingofisaacrebirth.wiki.gg
+2026-08-28 21:38:05
+
+An exception occurred during a Ping request.
+Bingus
+2026-08-28 21:38:05
+
