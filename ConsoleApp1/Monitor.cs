@@ -1,8 +1,11 @@
 ﻿using System.Net.NetworkInformation;
 
+// I had to choose between making the files easy to find and making this path neat.
+// The files are in bin\Debug\net10.0\TextFiles
 const String readPath = "TextFiles\\PingList.txt";
 const String writePath = "TextFiles\\Status.txt";
 
+// StreamReader and Writer to read and write with files.
 StreamReader reader = new StreamReader(readPath);
 StreamWriter writer = new StreamWriter(writePath);
 
